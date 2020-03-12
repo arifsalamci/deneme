@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Single Student Attribute Validation",
+        "description": "",
+        "id": "single-student-api-automation;single-student-attribute-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2769627800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User hits the single student API \"http://api.cybertektraining.com/student/6737\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://api.cybertektraining.com/student/6737\"",
+                  "offset": 33
+                }
+              ],
+              "location": "api_stepDefs.user_hits_the_single_student_API(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 799300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User checks for required atributes",
+            "match": {
+              "location": "api_stepDefs.user_checks_for_required_atributes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SingleStudent"
+          }
+        ]
+      }
+    ],
+    "name": "Single Student API Automation",
+    "description": "",
+    "id": "single-student-api-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/apiFetaures/singleStudent.feature",
+    "tags": []
+  }
+]

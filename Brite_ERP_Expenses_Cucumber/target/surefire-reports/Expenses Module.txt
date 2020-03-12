@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: Expenses module
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 139.623 s <<< FAILURE! - in Expenses module
+Create button verification(Expenses module)  Time elapsed: 28.296 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-primary btn-sm o_list_button_add']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5QB1BJR', ip: '10.1.10.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ARIF-B~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0c06015a64931587e0045809ea6add2d
+*** Element info: {Using=xpath, value=//button[@class='btn btn-primary btn-sm o_list_button_add']}
+
+Fill all the information(Expenses module)  Time elapsed: 20.033 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='o_input ui-autocomplete-input'])[1]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5QB1BJR', ip: '10.1.10.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ARIF-B~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4af2ba8b35486b23ce0403641e597bb7
+*** Element info: {Using=xpath, value=(//input[@class='o_input ui-autocomplete-input'])[1]}
+
+Verify saved expense(Expenses module)  Time elapsed: 20.107 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-primary btn-sm o_form_button_save']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5QB1BJR', ip: '10.1.10.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ARIF-B~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efc2f55b88a491ead3fa753a76c5eaa2
+*** Element info: {Using=xpath, value=//button[@class='btn btn-primary btn-sm o_form_button_save']}
+
+submit to manager button verification(Expenses module)  Time elapsed: 20.222 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Submit to Manager']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5QB1BJR', ip: '10.1.10.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ARIF-B~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8418d4956a2eb4a4e467a35f6cb96b4
+*** Element info: {Using=xpath, value=//button[.='Submit to Manager']}
+
+submitted message verification(Expenses module)  Time elapsed: 18.226 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//button[@class='btn btn-primary btn-sm o_form_button_save']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5QB1BJR', ip: '10.1.10.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: RemoteWebDriver
+
+submitted message verification(Expenses module)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5QB1BJR', ip: '10.1.10.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ARIF-B~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d10895306e8cbd527783e815de09dd0
+

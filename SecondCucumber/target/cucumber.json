@@ -1,0 +1,190 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5312448800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the google main page",
+            "match": {
+              "location": "Google_StepDefs.user_is_on_the_google_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Google search functionalty verifications",
+        "description": "",
+        "id": "google-search-verifications;google-search-functionalty-verifications",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 341653400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User types \"wooden spoon\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wooden spoon\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Google_StepDefs.user_types_keyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2570437800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User press enter",
+            "match": {
+              "location": "Google_StepDefs.user_press_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9702100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see the \"wooden spoon - Google Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wooden spoon - Google Search\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Google_StepDefs.user_should_see_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Google"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 401788100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the google main page",
+            "match": {
+              "location": "Google_StepDefs.user_is_on_the_google_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Google search functionalty verifications2",
+        "description": "",
+        "id": "google-search-verifications;google-search-functionalty-verifications2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 176901600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User types \"Galatasaray\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Galatasaray\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Google_StepDefs.user_types_keyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1721892200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User press enter",
+            "match": {
+              "location": "Google_StepDefs.user_press_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5053900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should see the \"Galatasaray - Google Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Galatasaray - Google Search\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Google_StepDefs.user_should_see_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Google"
+          }
+        ]
+      }
+    ],
+    "name": "Google search verifications",
+    "description": "",
+    "id": "google-search-verifications",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/google.feature",
+    "tags": [
+      {
+        "name": "@Google",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
